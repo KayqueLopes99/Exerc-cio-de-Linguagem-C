@@ -1,5 +1,5 @@
-//Faça um programa que receba quatro números inteiros, calcule e mostre a soma
-//desses números.
+//FaÃ§a um programa que receba quatro nÃºmeros inteiros, calcule e mostre a soma
+//desses nÃºmeros.
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -7,23 +7,21 @@
 int main(int argc, char *argv[])
 {
 
-	// Configurar a localidade para permitir a exibição de caracteres acentuados
+	// Configurar a localidade para permitir a exibiÃ§Ã£o de caracteres acentuados
 	setlocale(LC_ALL, "Portuguese");
 
-	int n1, n2, n3, n4, soma;
+	int n1, n2, n3, n4;
 
-	printf("Informe o primeiro número: \n");
+	printf("Informe o primeiro nÃºmero: \n");
 	scanf("%d", &n1);
-	printf("Informe o segundo número: \n");
+	printf("Informe o segundo nÃºmero: \n");
 	scanf("%d", &n2);
-	printf("Informe o terceiro número: \n");
+	printf("Informe o terceiro nÃºmero: \n");
 	scanf("%d", &n3);
-	printf("Informe o quarto número: \n");
+	printf("Informe o quarto nÃºmero: \n");
 	scanf("%d", &n4);
 
-	soma = n1 + n2 + n3 + n4;
-
-	printf("A soma dos quatro números: %d\n", soma);
+	printf("A soma dos quatro nÃºmeros: %d\n", n1 + n2 + n3 + n4);
 
 	system("pause");
 	
